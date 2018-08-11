@@ -1,0 +1,69 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:
+    #f9faff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #66a45f;
+}
+.disp{
+    display: flex;
+}
+thead.thick{
+    border-top: 4px solid #66a45f;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #f9b13b;
+    border-color: #f9b13b;
+}
+thead.bottom{
+    border-bottom: 4px solid #66a45f;
+}
+.card-header{
+    border-bottom: 4px solid #66a45f;
+}
+hr.type{
+    color: #66a45f;
+    height: 4px;
+}
+.base{
+    background-color: rgba(102, 164, 95, 0.05);
+}
+#listResults .checkbox label::before {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 0px !important;
+}
+#listResults .checkbox input[type="checkbox"]:checked + label::after{
+    background-color:green;
+}
+.buttonmode{
+    width: 70px;
+    height: 24px;
+     font-size: 10px;
+}
+.buttonmodee{
+    width: 96px;
+    height: 36px;
+     font-size: 12px;
+}
+.removeborder{
+    border-radius: 0 !important;
+}
+@media (max-width: 768px){
+    #sidebar {
+        margin-left: -100%;
+    }
+    #sidebar.active {
+        margin-left: 0%;
+    }
+    /* #content {
+        width: 100%;
+    } */
+    /* #sidebarCollapse span {
+        display: none;
+    } */
+}

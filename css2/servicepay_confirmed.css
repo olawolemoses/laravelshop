@@ -1,0 +1,29 @@
+.xxp{
+    background-image: url("images/dealsbg.png");
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-top:-30px;
+}
+.whitee{
+    margin-top:60px;
+}
+
+.trans:hover{
+    color:red;
+    background-color: yellowgreen;
+}
+
+
+.paytext{
+        color:#5e5e5e;
+        font-size:14px;
+        font-weight:700px;
+       margin-bottom:8px;
+}
+
+.paytexxt{
+    color:#5e5e5e;
+    font-size:12px;
+    margin-bottom:8px;
+   
+}

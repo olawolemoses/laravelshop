@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.containxxx{
+    background-size: cover;
+    
+}
+.btnn{
+    background-color: #f9b13b;
+
+}
+.text-bold{
+    color:#5e5e5e;
+    font-size: 14px;
+    font-weight:bold;
+}
+.bg-block{
+    background-color: #f5f5f5;
+}
+.text_color{
+    font-size: 14px;
+    color:#5e5e5e;
+}
+.text_color1{
+    font-size: 24px;
+    color:#66a45f;
+}
+.text_color1:hover{
+    transform:scale(1.1,1.1);
+}
+.bg-price{
+    background-color: #f5f5f5;
+    padding:10px 0px 10px 20px;
+}
+.list_item{
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+    color:#5e5e5e;
+}

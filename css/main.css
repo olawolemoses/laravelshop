@@ -1,0 +1,584 @@
+ @font-face {
+     font-family: 'Material Icons';
+     font-style: normal;
+     font-weight: 400;
+     src: url(../iconfont/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+     src: local('Material Icons'), local('MaterialIcons-Regular'), url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'), url(../iconfont/MaterialIcons-Regular.woff) format('woff'), url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+ .material-icons {
+     font-family: 'Material Icons';
+     font-weight: normal;
+     font-style: normal;
+     display: inline-block;
+     width: 1em;
+     height: 1em;
+     line-height: 1;
+     text-transform: none;
+     letter-spacing: normal;
+     word-wrap: normal;
+    /* Support for all WebKit browsers. */
+     -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+     text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+     -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+     font-feature-settings: 'liga';
+}
+
+
+
+
+
+
+/** checkbox **/
+
+.containers {
+  display: block;
+  position: relative;
+  padding-left: 18px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+  font-weight: 500;
+}
+
+/* Hide the browser's default checkbox */
+.containers input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  float: left;
+}
+
+/* Create a custom checkbox */
+.containers .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #3C9B34;
+}
+
+/* On mouse-over, add a grey background color */
+.containers:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containers input:checked ~ .checkmark {
+  background-color: #3C9B34;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.containers .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containers input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containers .checkmark:after {
+  left: 3px;
+  top: 0px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+ /* Customize the label (the container) */
+.containerss {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 13px;
+}
+
+/* Hide the browser's default radio button */
+.containerss input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.containerss .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #3C9B34;
+  margin-top: 13px;
+}
+
+/* On mouse-over, add a grey background color */
+.containerss:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerss input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.containerss .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerss input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerss .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #3C9B34;
+} 
+
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+}
+button, .btn {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.navbar-nav li.nav-item a{
+   font-size: 12px;
+   color: #4a4a4a;
+   text-transform: uppercase;
+   font-weight: 300;
+}
+
+.lego {
+   font-size: 12px;
+   color: #a9a9a9;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+.lego li i {
+   font-size: 16px;
+}
+.mishtab {
+   font-size: 12px;
+}
+.mishtab.fixed {
+   position: fixed;
+   top: 0;
+   background: #fff;
+   z-index: 20;
+   width: 100%;
+}
+.niner.floater {
+   bottom: 0;
+}
+.navbar-nav li.nav-item {
+    margin-right: 20px;
+}
+ul.navbar-nav li.nav-item a.nav-link:hover {
+   color: #f9b13b;
+}
+.navbar-nav li.nav-item a i {
+  font-size: 15px;
+}
+
+
+.carousel-item img {
+   width: 100%;
+}
+.mish.carousel-indicators {
+   width: 15px;
+   height: 300px;
+   flex-direction: column;
+   padding: 0;
+   margin: 0;
+   margin-left: 95%;
+   bottom: -70px;
+}
+.mish.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-top: 12px;
+
+}
+.mish.carousel-indicators li.active {
+    border: 3px solid #f9b13b;
+}
+
+
+.carousel-caption.d-none.d-md-block.mini {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption.d-none.d-md-block.mini h3 {
+   text-align: left;
+   padding-left: 8%;
+   margin-top: 16%;
+   font-size: 32px;
+}
+.carousel-caption.d-none.d-md-block.mini p {
+   text-align: left;
+   padding-left: 8%;
+   font-size: 13px;
+   font-weight: thin;
+   line-height: 23px;
+}
+
+.carousel-caption.d-none.d-md-block.mini button {
+   padding: 12px;
+   font-size: 10px;
+   font-weight: normal;
+   color: #fff;
+   float: left;
+   margin-left: 8%;
+   margin-top: 30px;
+
+}
+
+p.stats {
+   font-family: 'Fanwood Text', serif;
+   font-size: 14px;
+   color: #63438e;
+   width: 100%;
+}
+h6.stats {
+   width: 100%;
+   font-weight: bold;
+}
+p.tom {
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
+.scan .col-md-3, .scan .col-md-6 {
+  
+   margin-bottom: 20px;
+}
+.scan .col-md-3 img, .scan .col-md-6 img, .scan .col-md-4 img {
+   width: 100%;
+   float: left;
+}
+.cover {
+   width: 100%;
+   float: left;
+}
+.cover p {
+   font-size: 14px;
+   width: 100%;
+   margin-top: 10px;
+}
+.cover p span {
+   color: #9b9b9b;
+}
+hr {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.looper {
+   background: #f8f8f8;
+   padding: 40px 15px 40px 15px;
+}
+.looper h6 {
+   width: 100%;
+   font-size: 14px;
+
+}
+.looper p {
+   width: 100%;
+   font-size: 12px;
+   line-height: 17px;
+}
+.looper button {
+   font-size: 12px;
+   background: #5e5e5e;
+   color: #fff;
+   width: 120px;
+   margin-top: 15px;
+}
+.zoom {
+  padding: 0px;
+}
+
+.breaker {
+  border-bottom: 1px solid #ebebf2;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+
+.priceTag {
+   box-sizing: border-box;
+   margin-bottom: 20px;
+}
+.priceTag .col-md-12 {
+   background: #fff;
+    padding: 50px 30px 50px 30px;
+}
+.priceTag p {
+   width: 100%;
+   font-size: 12px;
+}
+.priceTag .stay {
+   width: 100%;
+}
+.priceTag sup {
+   font-size: 14px;
+}
+.priceTag span {
+   font-size: 54px;
+}
+.priceTag sub {
+   font-size: 16px;
+   font-family: 'Fanwood Text', serif;
+
+}
+.priceTag hr {
+   width: 100%;
+   margin-left: 0;
+   margin-right:  0;
+   margin-bottom: 30px;
+}
+.priceTag button {
+    color: #fff;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+
+.footer {
+   background: #f5f5f5;
+   font-size: 12px;
+
+}
+
+.footer .row {
+   padding: 50px 40px 20px 40px;
+}
+
+.footer p a {
+   text-decoration: none;
+   color: #fff;
+}
+.footer h6 {
+   margin-bottom: 15px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #5e5e5e;
+}
+
+.niner {
+   position: fixed;
+   bottom: -70px;
+   background: #fff;
+   width: 100%;
+   height: 50px;
+}
+.niner.floater {
+   bottom: 0;
+
+}
+.sat {
+  font-size: 12px;
+}
+
+
+
+.success {
+    background: #fff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
+   margin-top: 120px;
+   padding: 0px;
+   padding-top: 40px;
+   text-align: center;
+   display: none;
+}
+.success i {
+   color: #5da847;
+   font-size: 107px;
+   margin-bottom: 15px;
+}
+
+.success h5 {
+   color: #5e5e5e;
+   font-size: 32px;
+   margin-bottom: 30px;
+}
+.success p {
+   color: #5e5e5e;
+   font-size: 13px;
+   margin-bottom: 70px;
+   width: 80%;
+   margin-left: 10%;
+}
+
+.success button {
+   background: #f9b13b;
+   color: #fff;
+   font-size: 12px;
+   font-weight: 600;
+   height: 48px;
+   width: 100%;
+}
+
+
+.credential {
+   background: #fff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
+   margin-top: 120px;
+   padding: 20px 30px;
+   padding-bottom: 70px;
+}
+
+.credential span {
+   color: #575a5d;
+   font-size: 16px;
+   letter-spacing: 0.7px;
+   font-weight: 600;
+   width: 100%;
+   margin-bottom: 30px;
+}
+.credential i {
+   color: #fff;
+   padding: 13px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   font-size: 17px;
+}
+
+
+.form-control {
+    width: 100%;
+    border: solid 1px #ebebf2;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.credential label {
+   color: #5e5e5e;
+   font-size: 13px;
+   font-weight: 600;
+}
+.credential input {
+   margin-bottom: 10px;
+   height: 48px;
+}
+.credential button {
+    margin-top: 40px;
+    color: #fff;
+    height: 54px;
+  border-radius: 4px;
+  background-color: #f9b13b;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+
+button.auth {
+   border-radius: 0;
+   -webkit-border-radius: 0;
+   text-align: center;
+   margin-bottom: 12px;
+   margin-top: 0px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+}
+button.auth i {
+   float: left;
+   font-size: 30px;
+   color: #fff;
+   padding: 0px;
+}
+
+.credential a {
+   text-decoration: none;
+   color: #66a45f;
+   font-size: 12px;
+}
+.credential p {
+   font-size: 12px;
+   color: #5e5e5e;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px) {
+
+    .niner {
+        display: none;
+
+    }
+
+}

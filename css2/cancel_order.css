@@ -1,0 +1,16 @@
+
+.xxp{
+    background-image: url("images/dealsbg.png");
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-top:-30px;
+}
+.bg-white {
+
+    margin-top: 60px;
+}
+
+.trans:hover{
+    color:red;
+    background-color: yellowgreen;
+}

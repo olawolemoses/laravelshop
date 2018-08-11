@@ -1,0 +1,27 @@
+
+.xxp{
+    background-image: url("images/dealsbg.png");
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-top:-30px;
+}
+.bg-white {
+
+    margin-top: 60px;
+}
+
+.trans:hover{
+    color:red;
+    background-color: white;
+}
+
+#orderId{
+    font-size: 17px;color: #66a45f;border: solid 1px #ebebf2; text-align:center;
+    box-sizing: border-box;
+}
+
+#tracktext{
+    text-align: center;
+  color: #333333;
+  font-size: 14px;
+}

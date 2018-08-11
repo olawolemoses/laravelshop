@@ -1,0 +1,35 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+}
+
+.bookstyle{
+    margin: 10% 0 4% 0;
+}
+#scale_up:hover{
+    transform: scale(1.4,1.4);
+    color:#66a45f;
+}
+
+.btn-colorr{
+    color: #5e5e5e !important;
+    background-color: #fafafa !important;
+    width: 120px !important;
+    height: 40px !important;
+    margin: 5% 0;
+}
+.btn-color{
+    background-color: #f9b13b;
+    width: 120px;
+    height: 40px;
+    margin: 5% 0;
+    margin-left: 3%
+}
+.font_size{
+    font-size: 14px;
+    color:#5e5e5e;
+}
+
+.formh{
+    margin: 5% 0;
+}

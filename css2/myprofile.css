@@ -1,0 +1,48 @@
+body
+{   
+    font-family: 'Open Sans', sans-serif;
+    background-color:#fafafa !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border:0 !important;
+    border-bottom: solid 3px #f9b13b !important;
+    background-color: #f8f9fa !important;
+}
+.card{
+   border-left:5px solid #66a45f !important;
+}
+
+
+.progress{
+    height: 3px !important;
+    max-width: 980px !important;
+}
+.progress-bar{
+    color: #66a45f !important;
+    background-color: #66a45f !important;
+    
+}
+
+.far{
+
+    font-size: 28px;
+    color: #66a45f;
+}
+.linebrk{
+    width: 300px !important;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+.linebrkk{
+    width: 200px !important;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+#effet {display:none;}
+
+.order {
+    border-left: 5px solid white !important;
+}

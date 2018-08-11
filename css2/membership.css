@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+.xx{
+    background-image: url("images/dealsbg.png");
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-top:-30px;
+}
+
+.down{
+    margin-top: 26px;
+}
+.top{
+    margin-top: 40px;
+    margin-bottom: 74px;
+}
+.style{
+    width: 229px;
+    height: 470px;
+    
+}
+.btn{
+    width: 130px;
+    height: 36px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #f9b13b;
+}
+.title{
+    color:#63438e;font-size:14px;font-style:italic;font-family: FanwoodText;
+    padding-top:30px;
+}
+.title2{
+    color:#4a4a4a;
+    font-size:20px;
+}
+.sr{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+.de{
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+.re{
+    color: #5e5e5e;
+    font-size:14px;
+    line-height: 22px;
+    padding-bottom: 24px;
+}

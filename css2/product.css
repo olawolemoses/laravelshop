@@ -1,0 +1,196 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.checklist {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.checklist input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+}
+
+.checklist:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.checklist input:checked ~ .checkmark {
+    background-color: #f9b13b;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checklist input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checklist .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.side{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px !important;
+    color: #4a4a4a;
+}
+.raise
+{
+    position: absolute;
+    width: 100%;
+}
+.fas.fas1 {
+    font-weight: 900;
+    color: red;
+}
+
+.fas {
+    font-weight: 900;
+    color: black;
+}
+
+.border{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+}
+.scal:hover{
+    transform: scale(1.4,1.4);
+}
+.oval-black{
+    width: 20px;
+    height: 20px;
+    background-color: #333336;
+    margin-right: 20px;
+    border-radius:50%;
+}
+.oval-black:hover{
+    transform: scale(1.4,1.4)
+}
+.oval-brown
+{
+    width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: #ebd5c1;
+  margin-right: 20px;
+}
+.oval-brown:hover{
+    transform: scale(1.4,1.4)
+}
+.oval-grey
+{
+    width: 20px;
+  height: 20px;
+  background-color: #9b9b9b;
+  margin-right: 20px;
+  border-radius:50%;
+}
+.oval-grey:hover{
+    transform: scale(1.4,1.4)
+}
+.oval-pink
+{
+    width: 20px;
+  height: 20px;
+  background-color: #eabfa8;
+  margin-right: 20px;
+  border-radius:50%;
+}
+.oval-pink:hover{
+    transform: scale(1.4,1.4)
+}
+.far{
+    color:#ea3324;
+   
+}
+.fa{
+    color:#5e5e5e;
+}
+
+.banner{
+    padding-TOP: 120px;
+}
+.banner button
+{
+    font-size:14px;
+}
+.banner h6
+{
+    font-size:32px;
+    color:white;
+}
+.banner p
+{
+    font-size:17px;
+    color:white;
+}
+
+
+
+.card-body.overlay {
+    margin-top: 3px !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .card.hov:hover .overlay {
+    height: 39%;
+  }
+ 
+  .card.hov:hover .raise {
+    display:none;
+  }
+  .card-body.overlayy {
+    margin-top: 3px !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .card.hov:hover .overlayy {
+    height: 49%;
+  }

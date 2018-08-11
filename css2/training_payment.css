@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link
+{
+    border:0 !important ;
+}
+
+.high{
+    height: 96px;
+    background-color: #fafafa;
+
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+}
+.bookstyle{
+    margin: 10% 0 4% 0;
+}
+.progress-bar{
+    background-color:#66a45f;
+}
+#scale_up:hover{
+    transform: scale(1.4,1.4);
+    color:#66a45f;
+}
+.textup{
+    font-size: 14px;
+    color:#5e5e5e;
+}
+
+.btn {
+    
+    background-color: transparent !important;
+  
+}
+
+.btn-colorr{
+    color: #5e5e5e;
+    background-color: #fafafa;;
+    width: 120px;
+    height: 40px;
+    margin: 5% 0;
+}
+.btn-color{
+    background-color: #f9b13b;
+    width: 120px;
+    height: 40px;
+    margin: 5% 0;
+    margin-left: 3%
+}
+.font_size{
+    font-size: 14px;
+    color:#5e5e5e;
+}
